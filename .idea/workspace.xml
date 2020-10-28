@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a74b8aa0-8c6f-4152-a8a5-c178b3baa1cd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/vendor/rain/raintpl" />
+      <path value="$PROJECT_DIR$/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/vendor/project/php-classes" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1jF9nm3S2IXA2CMpeZMWXJQXtHr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projetos-Pessoais\admin-project\views\admin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projetos-Pessoais\teste-backend\vendor\project\php-classes\src" />
+      <recent name="D:\Projetos-Pessoais\teste-backend\views" />
+      <recent name="D:\Projetos-Pessoais\teste-backend\vendor\project\php-classes\src\Model" />
+      <recent name="D:\Projetos-Pessoais\teste-backend\vendor\project\php-classes\src\Banco" />
+      <recent name="D:\Projetos-Pessoais\admin-project\res\admin\dist\img" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a74b8aa0-8c6f-4152-a8a5-c178b3baa1cd" name="Default Changelist" comment="" />
+      <created>1603389141306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603389141306</updated>
+      <workItem from="1603389142387" duration="1897000" />
+      <workItem from="1603391564514" duration="8529000" />
+      <workItem from="1603469167030" duration="16423000" />
+      <workItem from="1603645958941" duration="4485000" />
+      <workItem from="1603732191208" duration="51508000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="180" key="#CLI_Interpreters" timestamp="1603648016745">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="540" y="180" key="#CLI_Interpreters/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1603648016745" />
+    <state x="667" y="168" key="#PHP" timestamp="1603648019824">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="667" y="168" key="#PHP/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1603648019824" />
+    <state x="-1584" y="366" key="#SQL_Dialects" timestamp="1603393312664">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1584" y="366" key="#SQL_Dialects/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1603393312664" />
+    <state x="-1368" y="183" width="1092" height="790" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603741747907">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1368" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1603741747907" />
+    <state x="552" y="183" width="1092" height="790" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1603648026985" />
+    <state x="-1191" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603863137064">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1191" y="327" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1603863137064" />
+    <state x="729" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1603648852757" />
+    <state x="-1230" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603755278317">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1230" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1603755278317" />
+    <state x="-1230" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603818754012">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1230" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1603818754012" />
+    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1603649045993" />
+    <state x="-1184" y="437" width="447" height="386" key="ComposerInitDialogKey" timestamp="1603391572628">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1184" y="437" width="447" height="386" key="ComposerInitDialogKey/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1603391572628" />
+    <state x="739" y="372" key="FileChooserDialogImpl" timestamp="1603647916349">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1181" y="372" key="FileChooserDialogImpl/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1603393205308" />
+    <state x="739" y="372" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1603647916349" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1603653646946">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1603653646946" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1603653646946">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1603653646946" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1603653646946">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1603653646946" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1603653646946">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1603653646946" />
+    <state x="-1151" y="248" key="NewPhpClassDialog" timestamp="1603393975276">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1151" y="248" key="NewPhpClassDialog/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1603393975276" />
+    <state x="615" y="170" key="SettingsEditor" timestamp="1603732207782">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="-1459" y="170" key="SettingsEditor/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1603391417382" />
+    <state x="615" y="170" key="SettingsEditor/-1920.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1603732207782" />
+    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1603647837424" />
+    <state x="-1253" y="81" width="585" height="888" key="find.popup" timestamp="1603402603454">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1253" y="81" width="585" height="888" key="find.popup/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1603402603454" />
+    <state x="-1297" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1603829593156">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1297" y="227" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1050/0.0.2560.1050@-1920.0.1920.1050" timestamp="1603829593156" />
+  </component>
+</project>

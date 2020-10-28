@@ -1,0 +1,91 @@
+.btn-comment-green {
+    width: 115px;
+    margin: 1px;
+    background-color: #00a65a;
+    color: white;
+}
+
+.btn-comm-list {
+    width: 115px;
+    margin: 1px;
+    background-color: #4acbdf;
+    border-color: #4acbdf;
+    color: white;
+}
+
+.btn-blue {
+    background-color: #0400ff;
+    border-color: #0400ff;
+    color: white;
+}
+
+.btn-comment-green:hover {
+    width: 115px;
+    margin: 1px;
+    background-color: #00a65a;
+    color: white;
+}
+.btn-comm-list:hover {
+    width: 115px;
+    margin: 1px;
+    background-color: #4acbdf;
+    border-color: #4acbdf;
+    color: white;
+}
+.btn-blue:hover {
+    background-color: #0400ff;
+    border-color: #0400ff;
+    color: white;
+}
+
+.custom-select {
+    width: 600px;
+    overflow: hidden;
+}
+
+.custom-select select {
+    width: 180px;
+    height: 40px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 19px;
+    padding: 10px 17px 7px 12px;
+    color: #000;
+    text-indent: 0.01px;
+}
+
+
+.paginator-center {
+    display: flex;
+    justify-content: center;
+}
+
+.paginator {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    background: #fff;
+    border-radius: 5px;
+
+}
+
+.paginator a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.paginator a:hover {
+    color: white;
+    background: cornflowerblue;
+}
+
+.balance-header {
+    margin: 15px 7px 4px 6px;
+}
+
+.balance-header p {
+    color: white;
+}
+
+

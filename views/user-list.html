@@ -1,0 +1,71 @@
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+<!-- Content Header (Page header) -->
+<section class="content-header">
+  <h1>
+    User List
+  </h1>
+  <ol class="breadcrumb">
+    <li><a href="/home"><i class="fa fa-dashboard"></i> Home</a></li>
+    <li class="active"><a href="/home/user/list">User List</a></li>
+  </ol>
+</section>
+
+<!-- Main content -->
+<section class="content">
+
+  <div class="row">
+  	<div class="col-md-12">
+  		<div class="box box-primary">
+            
+            <div class="box-header">
+              <a href="/home/user/new" class="btn btn-success">Create new user</a>
+            </div>
+
+            <div class="box-body no-padding">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th style="width: 10px">#</th>
+                    <th>Name</th>
+                    <th>Login</th>
+                    <th>Balance</th>
+                    <th style="width: 60px">Signature</th>
+                    <th style="width: 140px">&nbsp;</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {loop="$users"}
+                  <tr>
+                    <td>{$value.iduser}</td>
+                    <td>{$value.desname}</td>
+                    <td>{$value.deslogin}</td>
+                    <td>R$ {function="formatValue($value.balance)"}</td>
+                    <td>{if="$value.signature == 1"}True{else}False{/if}</td>
+                    <td>
+                      <a href="/home/user/{$value.iduser}" class="btn btn-primary btn-xs"><i class="fa fa-edit"></i> Edit</a>
+                      <a href="/home/user/{$value.iduser}/delete" onclick="return confirm('Deseja realmente excluir este registro?')" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> Delete</a>
+                    </td>
+                  </tr>
+                  {/loop}
+                </tbody>
+              </table>
+            </div>
+            <!-- /.box-body -->
+          </div>
+  	</div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 paginator-center">
+      <div class="paginator text-center">
+        {loop="$pages"}
+        <a href="{$value.link}">{$value.page}</a>
+        {/loop}
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- /.content -->
+</div>
+<!-- /.content-wrapper -->

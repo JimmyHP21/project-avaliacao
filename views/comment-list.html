@@ -1,0 +1,75 @@
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            Comment List
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="/home"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li class="active"><a href="/home/comment/list">Comment List</a></li>
+        </ol>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-primary">
+
+                    <div class="box-header">
+                        <a href="/home/post/{$idpost}/comment/new" class="btn btn-success">Create new Comment</a>
+                    </div>
+
+                    <div class="box-body no-padding">
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th style="width: 10px">#</th>
+                                <th>Comment</th>
+                                <th>Type</th>
+                                <th>Id User</th>
+                                <th>Login User</th>
+                                <th>Spotlight</th>
+                                <th>Date Created</th>
+                                <th style="width: 140px">&nbsp;</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {loop="$comments"}
+                            <tr>
+                                <td>{$value.idcomment}</td>
+                                <td>{$value.commentvalue}</td>
+                                <td>{if="$value.type == 1"}Foto{elseif="$value.type == 0"}Text{else}Video{/if}</td>
+                                <td>{$value.iduser}</td>
+                                <td>{$value.deslogin}</td>
+                                <td>{if="$value.destaquecomment == 1"}True{else}False{/if}</td>
+                                <td>{$value.dtcommnet}</td>
+                                <td>
+                                    <a href="/home/post/{$idpost}/comment/{$value.idcomment}" class="btn btn-primary btn-xs"><i class="fa fa-edit"></i> Editar</a>
+                                    <a href="/home/post/{$idpost}/comment/{$value.idcomment}/delete" onclick="return confirm('Deseja realmente excluir este registro?')" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> Excluir</a>
+                                </td>
+                            </tr>
+                            {/loop}
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 paginator-center">
+                <div class="paginator text-center">
+                    {loop="$pages"}
+                    <a href="{$value.link}">{$value.page}</a>
+                    {/loop}
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
